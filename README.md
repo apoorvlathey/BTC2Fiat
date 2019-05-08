@@ -20,7 +20,7 @@ Choose from a variety of fiat currencies like USD, INR, EUR, etc. Convert select
  * Click on "BTC" logo in the extensions tray and set desired fiat currency from dropdown.
  ![screenshot of popup on clicking extension](https://i.imgur.com/pjIeQWC.png)
  
- * Select the numeric part of BTC value
+ * Select the numeric part of BTC value<br>
  ![screenshot of selected text](https://i.imgur.com/qfBuMNy.png)
  
  * Right Click and Select the "Convert to ..." option
