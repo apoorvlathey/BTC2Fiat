@@ -8,7 +8,7 @@ Choose from a variety of fiat currencies like USD, INR, EUR, etc. Convert select
  git clone https://github.com/CodinMaster/BTC2Fiat.git
  ```
  
- * In Google Chrome, open this link: 
+ * Head over to this link in Google Chrome : 
  ``` 
  chrome://extensions/ 
  ```
