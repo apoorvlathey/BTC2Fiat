@@ -17,16 +17,16 @@ Choose from a variety of fiat currencies like USD, INR, EUR, etc. Convert select
  * The extension is installed !
  
  ### How to Use :
- * Click on "BTC" logo in the extensions tray and set desired fiat currency from dropdown.
+ * Click on "BTC" logo in the extensions tray and set desired fiat currency from dropdown.<br>
  ![screenshot of popup on clicking extension](https://i.imgur.com/pjIeQWC.png)
  
  * Select the numeric part of BTC value<br>
  ![screenshot of selected text](https://i.imgur.com/qfBuMNy.png)
  
- * Right Click and Select the "Convert to ..." option
+ * Right Click and Select the "Convert to ..." option<br>
  ![screenshot of right click menu](https://i.imgur.com/A5xRkYB.png)
  
- * The popup displays the converted value in Fiat !
+ * The popup displays the converted value in Fiat !<br>
  ![screenshot of converted value](https://i.imgur.com/jhlY88N.png)
  
  ### Features :
