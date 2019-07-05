@@ -33,3 +33,9 @@ Choose from a variety of fiat currencies like USD, INR, EUR, etc. Convert select
  * Currencies supported: AUD, BRL, CAD, CHF, CLP, CNY, DKK, EUR, GBP, HKD, INR, ISK, JPY, KRW, NZD, PLN, RUB, SEK, SGD, THB, TWD, USD
  * Current Market price also displayed on clicking the extension's icon
  * Works on any webpage
+
+ ---
+ To add options page in future, add the following code in manifest.json :
+ ``` 
+  "options_page": "options.html",
+ ```  
