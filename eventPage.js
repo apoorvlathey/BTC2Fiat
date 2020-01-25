@@ -44,6 +44,7 @@ function updatefiatCurr() {
 			});
 		}
 	});
+	updateBadge()
 }
 
 
@@ -66,7 +67,6 @@ function getPrice(btcVal) {
 			convertedVal = btcVal * data;
 
 			alert(btcVal + " BTC equals " + numberWithCommas(parseFloat(Number(convertedVal).toFixed(2))) + " " + fiatCurr);
-
 		}
 	});
 
@@ -87,3 +87,30 @@ chrome.contextMenus.onClicked.addListener(function (clickedData) {
 			alert("Please select just the Numeric value in BTC !");
 	}
 });
+
+function updateBadge() {
+		$.ajax({
+			async: true,
+			type: "GET",
+			url: "https://blockchain.info/ticker",
+			success: function (result) {
+				data = result[fiatCurr].last;
+				convertedVal = 1 * data;
+
+				var text = parseFloat(Number(convertedVal).toFixed(2)) + "";
+				chrome.browserAction.setBadgeText({ text: text });
+				console.log("updated price " + text)
+			}
+		});
+}
+
+// update price every 1 min [60,000 ms]
+function autoUpdateBadge() {	
+		setTimeout(function () {
+			updateBadge();
+			autoUpdateBadge();             //  ..  again which will trigger another 
+		}, 60000)
+	
+}
+
+autoUpdateBadge();
