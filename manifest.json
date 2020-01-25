@@ -14,7 +14,7 @@
 	},
 
 	"background": {
-		"scripts": ["jquery-3.4.1.min.js", "eventPage.js"],
+		"scripts": ["scripts/jquery-3.4.1.min.js", "eventPage.js"],
 		"persistent": false
 	},
 
